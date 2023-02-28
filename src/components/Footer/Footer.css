@@ -1,0 +1,207 @@
+.Footer {
+    position: relative;
+}
+
+.Footer .oslo span {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+.Footer .footerLeft {
+    position: absolute;
+    width: 350px;
+}
+
+.Footer .footerRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    z-index: 1;
+}
+
+.Footer .footer-content {
+    background-color: #262834;
+}
+
+.Footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    column-gap: 80px;
+}
+
+
+.Footer .oslo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
+.Footer .oslo .footer-logo {
+    width: 180px;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+
+
+.Footer .oslo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 80px;
+    font-family: "Jost", sans-serif;
+}
+
+.Footer .oslo svg {
+    width: 20px;
+    height: 20px;
+}
+
+.Footer ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    line-height: 23px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+.Footer ul li:hover {
+    transition: all 0.5s ease;
+
+}
+
+.Footer ul li:hover,
+.Footer ul li:hover span {
+    color: #0f8fac;
+    transform: translateX(10px);
+}
+
+.Footer ul li span,
+.Footer ul li {
+    line-height: 23px;
+    color: #fff;
+
+}
+
+.Footer h5 {
+    line-height: 23px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+.Footer .shop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0px;
+}
+
+.Footer .shop-by {
+    padding-top: 50px;
+}
+
+.Footer .shop-by ul li {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Footer .follow {
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+.Footer .follow svg {
+    width: 23px;
+    height: 23px;
+    /* cursor: pointer; */
+    /* z-index: 2; */
+}
+
+.Footer .follow h4 {
+    font-size: 22px;
+    color: #0f8fac;
+    font-family: "Jost", sans-serif;
+
+}
+
+.Footer .follow p {
+    line-height: 23px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.Footer .follow ul {
+    margin: 22px 0;
+}
+
+.Footer .icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Footer .follow button {
+    padding: 10px 15px;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.Footer .follow button {
+    background-color: #373945;
+    margin-top: 10px;
+}
+
+.Footer .follow .right {
+    background-color: #0f8fac;
+    border-radius: 0;
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+
+.Footer .card {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    border-top: 1px solid #0f8fac;
+    width: 89%;
+    margin: 0 auto;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.Footer .card ul li img {
+    width: 45px;
+    cursor: pointer;
+}
+
+.Footer .card p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}

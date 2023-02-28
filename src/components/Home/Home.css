@@ -1,0 +1,94 @@
+.Home {
+    position: relative;
+    height: auto;
+}
+
+.Home svg {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+}
+
+
+.Home .img {
+    height: 90vh;
+    background-image: url(../../img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Home .left {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    bottom: 0;
+}
+
+.Home .right {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 35%;
+}
+
+.Home .center {
+    position: absolute;
+    top: 100px;
+    width: 55%;
+    left: 300px;
+    text-align: center;
+}
+
+.Home .center h1 {
+    font-weight: 300;
+    line-height: 60px;
+    font-size: 40px;
+    font-family: "Jost", sans-serif;
+    margin: 25px;
+    color: #262834;
+}
+
+.Home .center p {
+    color: #767676;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.Home button {
+    /* width: 100px; */
+    background-color: #0f8fac;
+    color: antiquewhite;
+    padding: 12px 50px;
+    border: none;
+    margin-top: 40px;
+    font-size: 15px;
+    position: relative;
+}
+
+.Home button::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2.5px;
+    background-color: #0f8fac;
+    left: 50%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateX(-50%);
+    bottom: -6px;
+}
+
+.Home button:hover::after {
+    width: 0;
+}
+
+.indicators {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    translate: -51% -70%;
+}
+
+.indicators .active {
+    background-color: #0f8fac !important;
+}

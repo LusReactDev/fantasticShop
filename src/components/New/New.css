@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400&family=Montserrat+Alternates:wght@200;400;500;600;800&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@600;700&family=Source+Sans+Pro:ital,wght@0,700;0,900;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&family=Leckerli+One&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400&family=Montserrat+Alternates:wght@200;400;500;600;800&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@600;700&family=Source+Sans+Pro:ital,wght@0,700;0,900;1,600;1,900&display=swap');
+
+.New {
+    background-image: url(../../img/new.jpg);
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+}
+
+.New .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.New .middle .newArr {
+    font-size: 24px;
+    color: #262834;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 8px;
+}
+
+.New .middle .just,
+.for {
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-size: 73px;
+    color: #262834;
+    margin-bottom: -30px;
+
+}
+
+.New .middle .you {
+    font-family: "Leckerli One", "cursive";
+    color: #0f8fac;
+    font-size: 70px;
+    font-weight: bold;
+    transform: rotate(-18deg);
+    /* transform-origin: center; */
+    margin-bottom: 30px;
+}
+
+.New .middle .www {
+    width: 230px;
+    background-color: #262834;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    position: relative;
+}
+
+.New .middle .www p {
+    cursor: pointer;
+}
+
+.New .middle .www svg {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}

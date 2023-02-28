@@ -1,0 +1,63 @@
+.CartItem {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(193, 186, 186, 0.133);
+}
+
+.CartItem .image {
+    width: 30%;
+    height: 85px;
+}
+
+.CartItem .image img {
+    object-fit: scale-down;
+    max-width: 100%;
+    height: auto;
+}
+
+.CartItem .CartItemInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    position: relative;
+    align-items: center;
+}
+
+.CartItem .CartItemInfo .btns {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgba(221, 221, 221, 0.4);
+    border-radius: 5px;
+}
+
+.CartItem .CartItemInfo .btns button {
+    width: 30%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.CartItem .CartItemInfo .x {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.CartItem .CartItemInfo p {
+    font-size: 12px;
+}
+
+.CartItem .CartItemInfo span {
+    color: #0f8fac;
+    font-size: 13px;
+}

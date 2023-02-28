@@ -1,0 +1,128 @@
+.login {
+    display: flex;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 85px;
+    gap: 20px;
+}
+
+.logreg,
+.logreg {
+    width: 60%;
+    object-fit: cover;
+}
+
+.form h3 {
+    font-size: 25px;
+    color: #262834;
+}
+
+.form p {
+    font-size: 15px;
+    color: #767676;
+    font-family: "Jost", sans-serif;
+}
+
+.form span {
+    text-align: right;
+    color: #767676;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+
+.form label {
+    font-size: 15px;
+}
+
+.form .input {
+    padding: 11px;
+    border-radius: 22px;
+    border: 1px solid #c9c6c6;
+    color: rgb(110, 103, 103);
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+    margin-top: 8px;
+}
+
+.form .submit {
+    padding: 11px;
+    border-radius: 22px;
+    border: 1px solid #c9c6c6;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    background-color: #0f8fac;
+    cursor: pointer;
+}
+
+.form .reg {
+    text-align: center;
+    font-size: 15px;
+}
+
+.form .reg .link {
+    text-decoration: underline;
+    color: #0f8fac;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    border: none;
+}
+
+.form .or {
+    text-align: center;
+    position: relative;
+}
+
+.form .or::before {
+    top: 11px;
+    right: 10px;
+    content: "";
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background-color: #c9c6c6;
+ }
+
+.form .or::after {
+    top: 11px;
+    left: 10px;
+    content: "";
+    position: absolute;
+    width: 152px;
+    height: 1px;
+    background-color: #c9c6c6;
+}
+
+.form .google,
+.fb {
+    padding: 11px;
+    border-radius: 22px;
+    border: none;
+    background-color: rgba(196, 192, 192, 0.133);
+    color: #767676;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form .google img,
+.fb img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+.form .error {
+    color: rgb(245, 11, 11);
+    margin-top: 5px;
+}

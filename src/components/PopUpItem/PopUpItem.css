@@ -1,0 +1,49 @@
+.PopUpItem {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 40px;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(193, 186, 186, 0.133);
+    border-radius: 15px;
+}
+
+.PopUpItem .image {
+    width: 30%;
+    height: 85px;
+}
+
+.PopUpItem .image img {
+    object-fit: scale-down;
+    width: 100%;
+    height: 100%;
+}
+
+.PopUpItem .PopUpItemInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.PopUpItem .PopUpItemInfo .x {
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.PopUpItem .PopUpItemInfo p {
+    font-size: 15px;
+}
+
+.PopUpItem .PopUpItemInfo span {
+    color: #0f8fac;
+    font-size: 17px;
+}
+
+.PopUpItem .PopUpItemInfo h4 {
+    color: #0f8fac;
+}
